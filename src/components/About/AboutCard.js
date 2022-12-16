@@ -18,7 +18,7 @@ function AboutCard() {
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "In Life be like rainbow because world is full or colors"{" "}
+            "In Life be like rainbow because world is full of colors"{" "}
           </p>
           <footer className="blockquote-footer">Hemendra</footer>
         </blockquote>
