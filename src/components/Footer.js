@@ -4,16 +4,18 @@ import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3>Hemendra Mehta</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>
+            <a href="mailto:hmehta051@gmail.com">hmehta051@gmail.com</a>
+            &nbsp;-&nbsp;
+            <a href="tel:7878157406">7878157406</a>
+          </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
